@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Abdellatif Abaiss</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Abdellatif</a>
+        <nav class="navigation">
+            <a href="#About Me">About Me</a>
+            <a href="signup.html"> Account</a>
+            <a href="#Games"> Games</a>
+            <a href="#Contact Me"> Contact Me</a>
+            <a href="otherlinks.html"> العربية</a>
+        </nav>
+    </header>
+
+    <section class="main">
+       <div> 
+        <h2> Welcome to<br><span> web Design </span> </h2>
+        <h3>I love my life because it's simple</h3>
+        <a href="#About Me" class="main-btn"> About Me </a>
+        <div class="social-icons">
+             <a href="https://youtube.com/" target="_blank" ><i class="fab fa-youtube icon"></i></a>
+             <a href="https://instagram.com/" target="_blank" ><i class="fab fa-instagram icon"></i></a>
+             <a href="https://facebook.com/" target="_blank" ><i class="fab fa-facebook icon"></i></a>
+             <a href="https://twitter.com/" target="_blank" ><i class="fab fa-twitter icon"></i></a>
+        </div>
+       </div> 
+    </section>
+    
+
+    <section class="cards" id="About Me">
+        <h2 class="title">About Me</h2>
+        <p class="text1"> Hello,Im Abdellatif and this is my first web, </br>but it's not the last inshallah</p>        
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (localStorage.getItem('isLoggedIn') !== 'true') {
+                window.location.href = "signup.html";
+            }
+        });
+    </script>
+
+    <section class="games" id="Games">
+        <div class="play">
+            <div class="project">
+                <h1>My Recent</h1>
+                <h2>Games</h2>
+            </div>
+
+            <div class="j2">
+                <ul>
+                    <li>
+                        <a href="http://127.0.0.1:5500/otherlinks.html" target="_blank" > <img src="img/IMG-20250616-WA0000.jpg" alt="Pacman" > </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/game1/game1.html" target="_blank" > <img src="img/IMG-20250617-WA0005.jpg" alt=" XO Game" > </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/otherlinks.html" target="_blank" > <img src="img/IMG-20250616-WA0003.jpg" alt="" > </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/otherlinks.html" target="_blank" > <img src="img/IMG-20250616-WA0003.jpg" alt="" > </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/otherlinks.html" target="_blank" > <img src="img/IMG-20250616-WA0003.jpg" alt="" > </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/otherlinks.html" target="_blank" > <img src="img/IMG-20250616-WA0003.jpg" alt="" > </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactsection" id="Contact Me">
+        <div>
+            <div class="project">
+                <h1 class="m3">Contact</h1>
+                <h2 class="m3">Me</h2>
+            </div>
+
+            <div class="contact">
+                <div class="emailandphone">
+                    <img src="img/mail.png" alt="email logo" class="m1" />
+                    <a href="https://mail.google.com/mail/u/0/#inbox" class="m1" target="_blank">
+                        <h3>abdullatifabaiss37@gmail.com</h3>
+                    </a>
+                </div>
+
+                <div class="emailandphone">
+                    <img src="img/phone-number-svgrepo-com.svg" alt="phone logo" class="m2" />
+                    <a href="https://www.whatsapp.com/?lang=fr_FR" class="m2" target="_blank">
+                        <h3>+212 012-345678</h3>
+                    </a>
+                </div>
+            </div>
+
+            <div class="appmedia">
+
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                    <img src="img/mail.png" alt ="my email account" />
+                </a>
+
+                <a href="https://www.instagram.com/abd0u_ab2?gsh=dTl6a2Yydzhsc2Nm" target="_blank">
+                    <img src="img/instagram.png" alt="my instagram account" />
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <hr />
+    <footer>
+        <p>Build by Abdellatif</p>
+        <p>Support Me to continue</p>
+        <p>Made by love.</p>
+    </footer>
+
+</body>
+</html>
