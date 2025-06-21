@@ -13,7 +13,4 @@ document.getElementById('enter').addEventListener('submit', function(e) {
         alert('the information is incorrect! Please try again.')
     }
 });
- يوجد مشكل في هاد الجافا سكريبت داكشي علاش انا دايرو مخفي
-(معلومة : هاد السكريبت راه ديال تسجيل الدخول)
 */
-
